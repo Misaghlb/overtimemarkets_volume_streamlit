@@ -106,7 +106,7 @@ fig.update_layout(title_x=0, margin=dict(l=0, r=10, b=30, t=30), yaxis_title=Non
 c2.plotly_chart(fig, use_container_width=True)
 
 st.markdown("""
-these charts show the the Volume and Unique Wallets per each Sport in the last 14 days, currently four Sports are supported. \n
+these charts show the Volume and Unique Wallets per each Sport in the last 14 days, currently four Sports are supported. \n
 1. Baseball with 129K dollars, has the highest bet volume, but the number of unique wallets that placed a bet on this sport is 231, which is close to Soccer with 235 wallets.
 2. the number of wallets for Soccer and baseball are so close, but soccer total volume is lower than baseball, so bigger bets were placed on Baseball
 """)
